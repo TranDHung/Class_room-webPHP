@@ -1,0 +1,80 @@
+.card img{
+	border-radius:5px;
+}
+
+#assig{
+	border-radius:15px;
+	border:solid black 1px;
+	height:200px;
+}
+#newContent{
+	box-shadow:1px 1px 2px #888888;
+}
+
+.card {
+	width:  100%;
+	display: block;
+	padding-bottom: 15px;
+	color: white;
+	background-clip: padding-box;
+	overflow: hidden;
+	position: relative;
+	text-align: left;
+	margin-top: 10px;
+	transition: 0.3s;
+}
+.card:hover {
+	box-shadow: 2px 2px 5px 2px grey; 
+}
+.card .img {
+	max-width: 100%;
+	max-height: 100%
+	line-height: 50%;
+}
+.card-img-overlay{
+	padding-top: 5px;
+}
+.card-img-overlay .card-text1{
+
+	font-weight: bold;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: block;
+	font-size: 16px;
+	margin-top:-13px;
+}
+.card .card-img-overlay .card-text2{
+
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 13px;
+}
+.card .card-img-overlay .card-text3{
+
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	display: block;
+	font-size: 13px;
+	margin-bottom: 30px;
+}
+.card .card-body1{
+	padding-top: 40px;
+	border-top: .0625rem solid #e0e0e0;
+	line-height: 0;
+}
+.card .card-body2{
+	border-top: .0625rem solid #e0e0e0;
+	line-height: 0;
+	padding: 10px;
+
+}
+.textarea{
+	overflow:hidden;
+}
+.account{
+	border-radius:5px;
+}
